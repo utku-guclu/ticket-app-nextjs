@@ -1,3 +1,6 @@
+"use client";
+
+import { useEffect, useState } from "react";
 import TicketCard from "./(components)/TicketCard";
 
 const getTickets = async () => {
